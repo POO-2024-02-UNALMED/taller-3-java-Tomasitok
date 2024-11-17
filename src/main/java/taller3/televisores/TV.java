@@ -29,19 +29,19 @@ public class TV {
     }
     
     public void canalUp(){
-        setCanal(self.canal + 1);
+        setCanal(this.canal + 1);
     }
     
     public void canalDown(){
-        setCanal(self.canal - 1);
+        setCanal(this.canal - 1);
     }
     
     public void volumenUp(){
-        setVolumen(self.volumen + 1);
+        setVolumen(this.volumen + 1);
     }
     
     public void volumenDown(){
-        setVolumen(self.volumen - 1);
+        setVolumen(this.volumen - 1);
     }
     
     public boolean getEstado(){
